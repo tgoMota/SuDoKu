@@ -1,2 +1,2 @@
 # SuDoKu
-Obs: Só funciona bem no Windows 10
+Obs: Só funciona no Windows 10
