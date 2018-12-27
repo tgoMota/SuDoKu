@@ -82,9 +82,9 @@ void menu(){
         textcolor(9,0);
         if(opcao == 1){
             setlocale(LC_ALL, "Portuguese");
-            printf(" ->    INSTRUÇÕES\n");
+            printf(" ->    INSTRUÃ‡Ã•ES\n");
             printf("    INICIAR JOGO\n");
-            printf("    CRÉDITOS\n");
+            printf("    CRÃ‰DITOS\n");
             printf("    SAIR\n");
             textcolor(4,0);
             printf("===============================================================================\n");
@@ -99,9 +99,9 @@ void menu(){
 
         if(opcao == 2){
             setlocale(LC_ALL, "Portuguese");
-            printf("    INSTRUÇÕES\n");
+            printf("    INSTRUÃ‡Ã•ES\n");
             printf(" ->    INICIAR JOGO\n");
-            printf("    CRÉDITOS\n");
+            printf("    CRÃ‰DITOS\n");
             printf("    SAIR\n");
             textcolor(4,0);
             printf("===============================================================================\n");
@@ -116,9 +116,9 @@ void menu(){
 
         if(opcao == 3){
             setlocale(LC_ALL, "Portuguese");
-            printf("    INSTRUÇÕES\n");
+            printf("    INSTRUÃ‡Ã•ES\n");
             printf("    INICIAR JOGO\n");
-            printf(" ->   CRÉDITOS\n");
+            printf(" ->   CRÃ‰DITOS\n");
             printf("    SAIR\n");
             textcolor(4,0);
             printf("===============================================================================\n");
@@ -132,9 +132,9 @@ void menu(){
 
         if(opcao == 4){
             setlocale(LC_ALL, "Portuguese");
-            printf("    INSTRUÇÕES\n");
+            printf("    INSTRUÃ‡Ã•ES\n");
             printf("    INICIAR JOGO\n");
-            printf("    CRÉDITOS\n");
+            printf("    CRÃ‰DITOS\n");
             printf(" ->   SAIR\n");
             textcolor(4,0);
             printf("===============================================================================\n");
@@ -184,18 +184,18 @@ void instrucoes(){
         tituloSudoku();
         setlocale(LC_ALL, "Portuguese");
         textcolor(2,0);
-        printf("                       I N S T R U Ç Õ E S\n");
+        printf("                       I N S T R U Ã‡ Ã• E S\n");
         textcolor(4,0);
         printf("================================================================================\n");
         textcolor(9,0);
-        printf("||      O Sudoku é um passatempo, pra ser jogado por apenas                    ||\n");
-        printf("||      uma pessoa,que envolve raciocínio e lógica. A ideia                    ||\n");
-        printf("||      do jogo é bem simples: complete todas as 81 celulas                    ||\n");
+        printf("||      O Sudoku Ã© um passatempo, pra ser jogado por apenas                    ||\n");
+        printf("||      uma pessoa,que envolve raciocÃ­nio e lÃ³gica. A ideia                    ||\n");
+        printf("||      do jogo Ã© bem simples: complete todas as 81 celulas                    ||\n");
         printf("||      usando numeros de 1 a 9,sem repetir os numeros numa                    ||\n");
         printf("||      mesma linha, coluna ou grade (3x3).                                    ||\n");
         printf("||      Para mover o cursor, utilize as setas do teclado ou                    ||\n");
-        printf("||      ,até mesmo, as teclas 'w' 'a' 's' 'd'.                                 ||\n");
-        printf("||      Para modificar o valor, pressione ENTER na posição.                    ||\n");
+        printf("||      ,atÃ© mesmo, as teclas 'w' 'a' 's' 'd'.                                 ||\n");
+        printf("||      Para modificar o valor, pressione ENTER na posiÃ§Ã£o.                    ||\n");
         textcolor(4,0);
         printf("================================================================================\n");
         textcolor(2,0);
@@ -241,14 +241,14 @@ void creditos(){
         tituloSudoku();
         setlocale(LC_ALL, "Portuguese");
         textcolor(2,0);
-        printf("                              C R É D I T O S\n");
+        printf("                              C R Ã‰ D I T O S\n");
         textcolor(4,0);
         printf("================================================================================\n");
         textcolor(9,0);
         printf("||      Thiago Mota Carvalho                                                   ||\n");
-        printf("||                 Graduando em Ciência da Computação - UFU                    ||\n");
+        printf("||                 Graduando em CiÃªncia da ComputaÃ§Ã£o - UFU                    ||\n");
         printf("||                                     2018                                    ||\n");
-        printf("||      email: tmclegal1@gmail.com                                             ||\n");
+        printf("||      email: tgomota1@gmail.com                                              ||\n");
         textcolor(4,0);
         printf("================================================================================\n");
         textcolor(2,0);
@@ -533,7 +533,7 @@ void iniciar(){
                     else{
                         printf("\n\n\n");
                         printf("-----------------------------------------------------------------------------\n");
-                        printf("       Seu quadro ainda nao está correto, continue tentando!\n");
+                        printf("       Seu quadro ainda nao estÃ¡ correto, continue tentando!\n");
                         printf("\n                           Pressione qualquer tecla para continuar...\n");
                         printf("-----------------------------------------------------------------------------\n");
                         q = getch();
