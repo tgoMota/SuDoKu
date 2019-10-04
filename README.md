@@ -1,4 +1,5 @@
 # SuDoKu
-Obs: O programa só funciona no Windows 10 e, na mesma pasta, necessita do sudoku.txt para a execução.
 
-by: Thiago Mota Carvalho
+Game developed for fun only. It runs neatly on windows 10 CMD.
+
+Developed by: Thiago Mota Carvalho
